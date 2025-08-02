@@ -1,8 +1,8 @@
 
 ```markdown
-# 🛠️ Maven Project Overview
+🛠️ Maven Project Overview
 
-## 📌 What is Maven?
+📌 What is Maven?
 
 **Maven** is a powerful build automation and project management tool primarily used for Java projects. It simplifies dependency management, project structure, build lifecycles, and packaging. Though most commonly used with Java, Maven also supports languages like C#, Scala, and Ruby.
 
@@ -10,7 +10,7 @@
 
 ---
 
-## ✅ Maven Advantages
+ ✅ Maven Advantages
 
 - Automates the build process
 - Manages project dependencies
@@ -22,7 +22,7 @@
 
 ---
 
-## 📁 Maven Project Structure
+ 📁 Maven Project Structure
 
 ```
 
@@ -43,7 +43,7 @@ my-app/
 
 ---
 
-## 📦 Artifact Types
+ 📦 Artifact Types
 
 | Artifact Type | Description |
 |---------------|-------------|
@@ -52,8 +52,7 @@ my-app/
 | `.ear`        | Enterprise Archive – a combination of `.jar` and `.war` for enterprise deployment |
 
 ---
-
-## 🔄 Maven Lifecycles
+ 🔄 Maven Lifecycles
 
 | Goal      | Description |
 |-----------|-------------|
@@ -67,23 +66,23 @@ my-app/
 
 ---
 
-## 🔧 Repositories
+🔧 Repositories
 
 - **Remote**: [Maven Central](https://mvnrepository.com/)
 - **Local**: Located in `~/.m2/repository`
 
 ---
 
-## 📄 pom.xml Overview
+📄 pom.xml Overview
 
 **POM** = Project Object Model  
 The `pom.xml` file defines dependencies, plugins, build instructions, and metadata.
 
-### Key Elements:
+Key Elements:
 - `<dependencies>` – Add third-party libraries
 - `<plugins>` – Configure build tools like compiler, test runners, etc.
 
-### Example:
+ Example:
 ```xml
 <dependencies>
   <dependency>
@@ -97,7 +96,7 @@ The `pom.xml` file defines dependencies, plugins, build instructions, and metada
 
 ---
 
-## 🚀 Create a Sample Maven Project
+ 🚀 Create a Sample Maven Project
 
 ```bash
 mvn archetype:generate \
@@ -107,14 +106,14 @@ mvn archetype:generate \
   -DinteractiveMode=false
 ```
 
-### Common Archetypes:
+ Common Archetypes:
 
 * `maven-archetype-quickstart` → Java CLI app
 * `maven-archetype-webapp` → Web application template
 
 ---
 
-## 🔍 Build Tools Comparison
+🔍 Build Tools Comparison
 
 | Language | Build Tool              |
 | -------- | ----------------------- |
@@ -126,9 +125,9 @@ mvn archetype:generate \
 
 ---
 
-## 🧪 Example Source Code
+🧪 Example Source Code
 
-### ✅ Login Page (JSP)
+ ✅ Login Page (JSP)
 
 ```jsp
 <!-- login.jsp -->
@@ -155,7 +154,7 @@ mvn archetype:generate \
 
 ---
 
-### ✅ Hello World (HTML)
+✅ Hello World (HTML)
 
 ```html
 <!-- hello.html -->
@@ -168,25 +167,14 @@ mvn archetype:generate \
 
 ---
 
-## 📎 License
+ 📎 License
 
 This project is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
 ---
 
-## 🙌 Acknowledgements
+ 🙌 Acknowledgements
 
 Maintained by the **Apache Software Foundation**
 Created as part of Java Maven learning.
 
-```
-
----
-
-Let me know if you want to include:
-- GitHub badges (build passing, license, etc.)
-- A Maven command cheat sheet section
-- Deployment instructions or Docker support
-
-I can also help you push this to your repo with a `git` setup if you like.
-```
