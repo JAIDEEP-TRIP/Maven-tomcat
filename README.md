@@ -1,6 +1,3 @@
-Here is a **clean, professional, and Markdown-formatted `README.md`** file you can use for your GitHub project to explain Maven, its advantages, structure, and usage examples:
-
----
 
 ```markdown
 # 🛠️ Maven Project Overview
