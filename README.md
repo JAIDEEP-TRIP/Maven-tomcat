@@ -4,7 +4,7 @@
 
 📌 What is Maven?
 
-**Maven** is a powerful build automation and project management tool primarily used for Java projects. It simplifies dependency management, project structure, build lifecycles, and packaging. Though most commonly used with Java, Maven also supports languages like C#, Scala, and Ruby.
+Maven is a powerful build automation and project management tool primarily used for Java projects. It simplifies dependency management, project structure, build lifecycles, and packaging. Though most commonly used with Java, Maven also supports languages like C#, Scala, and Ruby.
 
 > Maven is maintained by the [Apache Software Foundation](https://maven.apache.org/).
 
@@ -68,14 +68,14 @@ my-app/
 
 🔧 Repositories
 
-- **Remote**: [Maven Central](https://mvnrepository.com/)
-- **Local**: Located in `~/.m2/repository`
+- Remote: [Maven Central](https://mvnrepository.com/)
+- Local: Located in `~/.m2/repository`
 
 ---
 
 📄 pom.xml Overview
 
-**POM** = Project Object Model  
+POM = Project Object Model  
 The `pom.xml` file defines dependencies, plugins, build instructions, and metadata.
 
 Key Elements:
@@ -108,8 +108,8 @@ mvn archetype:generate \
 
  Common Archetypes:
 
-* `maven-archetype-quickstart` → Java CLI app
-* `maven-archetype-webapp` → Web application template
+ `maven-archetype-quickstart` → Java CLI app
+`maven-archetype-webapp` → Web application template
 
 ---
 
